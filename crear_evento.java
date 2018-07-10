@@ -221,7 +221,7 @@ public class crear_evento {
          System.out.println("Mostrar Eventos");
          System.out.println("");
         for (int i = 0; i < a.length; i++) {
-        System.out.println( "Titulo del Evento:" + a[i].getTitulo()+"\n"+ "Detalles del Evento:"+ a[i].getDeta()+"\n"+ "Ubicacion del Evento:"+a[i].getUbi()+"\n"+ "Dia del Evento:"+ a[i].getDia()+"\n"+ "Mes del Evento:"+a[i].getMes()+"\n"+ " Año del Evento:"+a[i].getAño()+"\n"+ "Hora de Inicio del Evento:"+"\n"+ a[i].getHora()+"Ingresar Minutos: "+"\n"+ a[i].getMinutos()+"\n"+"Hora fin del Evento:"+ a[i].getFin()+"\n" +"Ingrese minutos:" + a[i].getNfin()+"\n");
+        System.out.println( "Titulo del Evento:" + a[i].getTitulo()+"\n"+ "Detalles del Evento:"+ a[i].getDeta()+"\n"+ "Ubicacion del Evento:"+a[i].getUbi()+"\n"+ "Dia del Evento:"+ a[i].getDia()+"\n"+ "Mes del Evento:"+a[i].getMes()+"\n"+ " Año del Evento:"+a[i].getAño()+"\n" +"Hora de Inicio del Evento:"+ a[i].getHora()+"\n"+"Ingresar Minutos: "+ a[i].getMinutos()+"\n"+"Hora fin del Evento:"+ a[i].getFin()+"\n"+"Ingrese minutos:" +a[i].getNfin()+"\n");
         }
         
         
@@ -232,7 +232,7 @@ public class crear_evento {
          principal callprincipal = new principal();
          callprincipal.newpincipal();
             
-          System.out.println("********************************************");
+        System.out.println("********************************************");
         System.out.println();
        
             
